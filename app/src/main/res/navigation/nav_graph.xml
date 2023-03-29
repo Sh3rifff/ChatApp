@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/discoveryFragment">
+
+    <fragment
+        android:id="@+id/messageFragment"
+        android:name="az.sharif.chatapp.fragment.MessageFragment"
+        android:label="fragment_message"
+        tools:layout="@layout/fragment_message" >
+        <action
+            android:id="@+id/message_to_users"
+            app:destination="@id/usersFragment" />
+        <action
+            android:id="@+id/message_to_discovery"
+            app:destination="@id/discoveryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="az.sharif.chatapp.fragment.helper.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" >
+        <argument
+            android:name="article"
+            app:argType="az.sharif.chatapp.models.Article" />
+    </fragment>
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="az.sharif.chatapp.fragment.NewsFragment"
+        android:label="fragment_news"
+        tools:layout="@layout/fragment_news" >
+        <action
+            android:id="@+id/news_to_details"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/discoveryFragment"
+        android:name="az.sharif.chatapp.fragment.DiscoveryFragment"
+        android:label="fragment_discovery"
+        tools:layout="@layout/fragment_discovery" >
+        <action
+            android:id="@+id/discovery_to_services"
+            app:destination="@id/servicesItemFragment" />
+        <argument
+            android:name="image"
+            app:argType="reference" />
+        <action
+            android:id="@+id/discovery_to_info"
+            app:destination="@id/userInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/servicesItemFragment"
+        android:name="az.sharif.chatapp.fragment.helper.ServicesItemFragment"
+        android:label="fragment_services_item"
+        tools:layout="@layout/fragment_services_item" >
+        <argument
+            android:name="service"
+            app:argType="az.sharif.chatapp.models.ServiceModel" />
+    </fragment>
+    <fragment
+        android:id="@+id/usersFragment"
+        android:name="az.sharif.chatapp.fragment.helper.UsersFragment"
+        android:label="fragment_users"
+        tools:layout="@layout/fragment_users" />
+    <fragment
+        android:id="@+id/userInfoFragment"
+        android:name="az.sharif.chatapp.fragment.helper.UserInfoFragment"
+        android:label="fragment_user_info"
+        tools:layout="@layout/fragment_user_info" />
+</navigation>

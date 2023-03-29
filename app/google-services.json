@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "309508564425",
+    "project_id": "chat-app-321e2",
+    "storage_bucket": "chat-app-321e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309508564425:android:01e017a552481edcc4b418",
+        "android_client_info": {
+          "package_name": "az.sharif.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309508564425-uobi2ijt1ud14qs17nuo8ludp54sdh9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLOP9YyKy9NFQPxcsFPimaZe6rBLko82o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309508564425-uobi2ijt1ud14qs17nuo8ludp54sdh9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

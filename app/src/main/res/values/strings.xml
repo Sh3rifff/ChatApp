@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Bippy</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="login_to_continue">Login To Continue</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_out">Sign out</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="save">Save</string>
+    <string name="create_new_accountant">Create new Accountant</string>
+    <string name="add_image">Add Image</string>
+    <string name="personal_info">Personal Information\'s</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="select_user">Select User</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="online">Online</string>
+    <string name="description">description</string>
+
+
+    <string name="skip_here">Skip here</string>
+    <string name="welcome">Welcome to Bippy!</string>
+    <string name="enter_phone">Enter your phone number</string>
+    <string name="todo">TODO</string>
+    <string name="category">Category</string>
+    <string name="services">Services</string>
+    <string name="help">Help?</string>
+    <string name="login">LOG IN</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_5">0</string>
+    <string name="i_dont_recive_code">I dont recive code</string>
+    <string name="otp_sent">OTP Sent!</string>
+    <string name="enter_the_4_dight_code">Enter the 4-dight code sent to your phone number</string>
+    <string name="continuee">Continue</string>
+    <string name="username">Username</string>
+    <string name="car_number">Car Number</string>
+    <string name="already_have_an_account">Already have an Account?</string>
+    <string name="find_best_services_for_you">Find Best services for you!</string>
+    <string name="baku_aze">Baku,Aze</string>
+    <string name="find_best_ser">Find Best search</string>
+    <string name="rating">Rating</string>
+    <string name="nurgun_moto">Nurgun Motors</string>
+    <string name="avtomobil_t_miri">Avtomobil təmiri</string>
+    <string name="call">Call</string>
+    <string name="motor">Motor</string>
+    <string name="filter">Filter</string>
+    <string name="lorem">Lorem</string>
+    <string name="nurgun">Nurgun Motors is simply dummy text of the printing and typesetting industry.</string>
+    <string name="lorem_uzun">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="asim_usta">Asim Usta</string>
+    <string name="chat">chat</string>
+    <string name="discovery">discovery</string>
+    <string name="news">news</string>
+    <string name="start">Start</string>
+    <string name="search">Search</string>
+    <string name="title">Title</string>
+    <string name="source">Source</string>
+    <string name="date">Date</string>
+    <string name="desc">desc</string>
+    <string name="xx_xxx_xx_xx">xx_xxx_xx_xx</string>
+
+</resources>
